@@ -56,21 +56,21 @@ body {
 }
 
 .card button:hover {
-    cursor: pointer;
-    background-color: inherit;
-    color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  background-color: inherit;
+  color: hsl(0, 0%, 95%);
 }
 
 .card-1 button {
-    color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
 }
 
 .card-2 button {
-    color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
 }
 
 .card-3 button {
-    color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
 }
 
 @media screen and (max-width: 992px) {
@@ -91,31 +91,22 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .container {
-    width: 95%;
-  }
-
   .card {
+    max-width: 100%;
     padding: 0.5rem 1rem;
   }
 }
 
 @media screen and (max-width: 375px) {
   .container {
-    width: 95%;
     flex-direction: column;
   }
 
-  .card {
-    max-width: 90%;
-    padding: 0.5rem 1rem;
-  }
-  
   .card-1 {
     border-bottom-left-radius: 0;
     border-top-right-radius: 10px;
   }
-  
+
   .card-3 {
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
