@@ -1,0 +1,118 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 75%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.card {
+  max-width: 25%;
+  padding: 2rem 2.5rem;
+}
+
+.card-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  margin: 2rem auto;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.75rem;
+  margin-bottom: 30px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card button {
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem 2rem;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 25px;
+  margin-top: 30px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card button:hover {
+    cursor: pointer;
+    background-color: inherit;
+    color: hsl(0, 0%, 95%);
+}
+
+.card-1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.card-2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.card-3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 85%;
+  }
+
+  .card {
+    max-width: 33%;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+
+  .card {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+
+  .card {
+    max-width: 90%;
+    padding: 0.5rem 1rem;
+  }
+}
