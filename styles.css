@@ -73,16 +73,6 @@ body {
     color: hsl(179, 100%, 13%);
 }
 
-@media screen and (max-width: 375px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .card {
-    max-width: 75%;
-  }
-}
-
 @media screen and (max-width: 992px) {
   .container {
     width: 85%;
@@ -113,6 +103,7 @@ body {
 @media screen and (max-width: 375px) {
   .container {
     width: 95%;
+    flex-direction: column;
   }
 
   .card {
